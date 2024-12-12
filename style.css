@@ -1,0 +1,99 @@
+/* Cấu trúc tổng thể */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  /* Container chứa bảng */
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  /* Thiết kế bảng */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+  }
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  /* Nút Sửa và Xóa */
+  button {
+    padding: 6px 12px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  .form-search input {
+    width: 60%;
+    height: 30px;
+    padding: 18px;
+    margin-bottom: 10px;
+  }
+  .form-search button {
+    margin-left: 25px;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+  }
+  .search-btn {
+    background-color: gray;
+    color: white;
+  }
+  .form-search {
+    text-align: center;
+    margin: auto;
+  }
+  .form-add {
+    text-align: right;
+    float: right;
+    font-size:large;
+
+  }
+  .form-add button {
+    height: 40px;
+    width: 200px;
+  }
+.add-btn {
+    background-color: green;
+    color: white;
+}
+.form-group {
+  width: 95%;
+}
+.save {
+  text-align: center;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+.head {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px; 
+}
+img {
+  height: 50px;
+}
